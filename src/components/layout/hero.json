@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_hero_s",
+  "info": {
+    "displayName": "hero ",
+    "icon": "walk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.buttons"
+    }
+  }
+}
